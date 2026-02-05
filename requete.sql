@@ -11,3 +11,5 @@ inner join drgcodes ON drgcodes.SUBJECT_ID = admissions.SUBJECT_ID;
 select distinct * from diagnoses_icd;/*requete limité a 1000*/
 
 /*Question 4 : Dynamique clinique précoce*/
+SELECT CHARTTIME,STORETIME,CGID,VALUE,VALUENUM,VALUEUOM from chartevents;
+
