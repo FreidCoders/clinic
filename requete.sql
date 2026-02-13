@@ -17,4 +17,4 @@ SELECT CHARTTIME,STORETIME,CGID,VALUE,VALUENUM,VALUEUOM from chartevents;
 
 SELECT ROW_ID,SUBJECT_ID,HAMD_ID,FIRST_CAREUNIT,LAST_CAREUNIT,LOS,INTIME,OUTTIME FROM icustays;
 
-/*Question 11 : Role d'interventions*/
+/*Question 11 : Role d'intervention*/
