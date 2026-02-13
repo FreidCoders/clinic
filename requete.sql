@@ -13,3 +13,8 @@ select distinct * from diagnoses_icd;/*requete limité a 1000*/
 /*Question 4 : Dynamique clinique précoce*/
 SELECT CHARTTIME,STORETIME,CGID,VALUE,VALUENUM,VALUEUOM from chartevents;
 
+/*Question 10 : Valeur pronostique*/
+
+SELECT ROW_ID,SUBJECT_ID,HAMD_ID,FIRST_CAREUNIT,LAST_CAREUNIT,LOS,INTIME,OUTTIME FROM icustays;
+
+/*Question 11 : Role d'interventions*/
